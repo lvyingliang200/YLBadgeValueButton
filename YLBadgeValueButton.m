@@ -90,7 +90,8 @@
             self.center = self.smallCircle.center;
             self.smallCircle.hidden = NO;
         }else{
-            [self destroyAniamtion];
+//             注意消失动画需自己定义图片，也可使用Demo中的图片
+            //[self destroyAniamtion];
             [self killAll];
         }
     }
@@ -236,8 +237,6 @@
  @param highlighted 是否高亮的bool值
  */
 - (void)setHighlighted:(BOOL)highlighted
-{
-    
-}
+{}
 
 @end
